@@ -1110,3 +1110,56 @@ text-decoration:none;
     height:70px;
     width:auto;
 }
+/* Thank You Page */
+
+.thank-you {
+
+    max-width: 700px;
+
+    margin: 100px auto;
+
+    padding: 40px;
+
+    text-align: center;
+
+}
+
+.thank-you h1 {
+
+    font-size: 3rem;
+
+    margin-bottom: 20px;
+
+}
+
+.thank-you p {
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+}
+
+.thank-you blockquote {
+
+    margin: 40px 0;
+
+    font-style: italic;
+
+    font-size: 1.2rem;
+
+}
+
+.button {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 15px 35px;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+}
