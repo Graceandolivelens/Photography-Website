@@ -288,7 +288,7 @@ padding:40px;
 
 background:var(--olive);
 
-color:var(--olive);
+color:var(--off-white);
 
 text-align:center;
 
@@ -443,7 +443,7 @@ padding:40px 8% 100px;
 
 .portfolio-card {
 
-background:white;
+background:var(--off-white);
 
 text-decoration:none;
 
@@ -790,7 +790,7 @@ padding:50px 8%;
 
 .service-card {
 
-background:white;
+background:var(--off-white);
 
 padding:40px;
 
@@ -820,7 +820,7 @@ line-height:1.7;
 
 .price {
 
-color:var(--sage);
+color:var(--olive);
 
 font-weight:bold;
 
@@ -907,7 +907,7 @@ margin-top:40px;
 
 .included-grid div {
 
-background:white;
+background:var(--off-white);
 
 padding:30px;
 
@@ -1002,9 +1002,9 @@ font-family:inherit;
 
 .contact-form button {
 
-background:var(--sage);
+background:var(--olive);
 
-color:white;
+color:var(--off-white);
 
 border:none;
 
@@ -1050,7 +1050,7 @@ margin-top:50px;
 
 .testimonial {
 
-background:white;
+background:var(--off-white);
 
 padding:35px;
 
@@ -1079,9 +1079,9 @@ font-size:18px;
 }
 .site-footer {
 
-background:var(--brown);
+background:var(--olive);
 
-color:white;
+color:var(--off-white);
 
 text-align:center;
 
@@ -1092,7 +1092,7 @@ padding:60px 20px;
 
 .site-footer a {
 
-color:white;
+color:var(--off-white);
 
 margin:10px;
 
