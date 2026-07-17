@@ -41,7 +41,7 @@ h1,
 h2,
 h3 {
 
-font-family: Canva Student Font, moontime;
+font-family: Moontime, moontime;
 
 font-weight:400;
 
@@ -288,7 +288,7 @@ padding:40px;
 
 background:var(--olive);
 
-color:var(--off-white);
+color:var(--olive);
 
 text-align:center;
 
