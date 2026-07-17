@@ -1,10 +1,12 @@
 :root {
 
---cream: #EEECE8;
+--cream: #E6DCCF;
 
---sage: #8FA67D;
+--olive: #8FA67D;
 
---brown: #BBAA97;
+--taupe: #BBAA97;
+
+--off-white: #EEECE8;
 
 --text: #603503;
 
@@ -25,7 +27,7 @@ box-sizing:border-box;
 
 body {
 
-font-family: Arial, sans-serif;
+font-family: Canva Student Font, moontime;
 
 background:var(--cream);
 
@@ -39,7 +41,7 @@ h1,
 h2,
 h3 {
 
-font-family: Georgia, serif;
+font-family: Canva Student Font, moontime;
 
 font-weight:400;
 
@@ -83,7 +85,7 @@ background-size:cover;
 
 background-position:center;
 
-color:white;
+color:off-white;
 
 }
 
@@ -104,7 +106,7 @@ padding:35px 8%;
 
 .logo {
 
-font-family:Georgia, serif;
+font-family:Canva Student Font, serif;
 
 font-size:28px;
 
@@ -126,7 +128,7 @@ list-style:none;
 
 nav a {
 
-color:white;
+color:off-white;
 
 text-decoration:none;
 
@@ -180,13 +182,13 @@ line-height:1.7;
 
 .button {
 
-background:var(--sage);
+background:var(--olive);
 
 padding:16px 35px;
 
 border-radius:40px;
 
-color:white;
+color:off-white;
 
 text-decoration:none;
 
@@ -240,7 +242,7 @@ margin-top:40px;
 
 .card {
 
-background:white;
+background:off-white;
 
 padding-bottom:25px;
 
@@ -284,9 +286,9 @@ footer {
 
 padding:40px;
 
-background:var(--brown);
+background:var(--olive);
 
-color:white;
+color:off-white;
 
 text-align:center;
 
