@@ -12,6 +12,17 @@
 
 }
 
+@font-face {
+    font-family: "Moontime";
+    src: url("../fonts/moontime.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Olivera";
+    src: url("../fonts/olivera.woff") format("woff");
+}
+}
+
 
 * {
 
@@ -27,7 +38,7 @@ box-sizing:border-box;
 
 body {
 
-font-family: Canva Student Font, moontime;
+font-family: "Olivera", serif;
 
 background:var(--cream);
 
@@ -41,7 +52,7 @@ h1,
 h2,
 h3 {
 
-font-family: Moontime, moontime;
+font-family: "Moontime", cursive;
 
 font-weight:400;
 
@@ -106,7 +117,7 @@ padding:35px 8%;
 
 .logo {
 
-font-family:Canva Student Font, serif;
+font-family:"Moontime", cursive;
 
 font-size:28px;
 
