@@ -171,9 +171,7 @@ list-style:none;
 
 .hero-content h1 {
 
-font-size:55px;
-
-max-width:850px;
+max-width:1200px;
 
 }
 
@@ -195,7 +193,7 @@ line-height:1.7;
 
     font-family:"Moontime";
 
-    font-size:12rem;
+    font-size:15rem;
 
     font-weight:normal;
 
