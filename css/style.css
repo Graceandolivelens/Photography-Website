@@ -40,24 +40,19 @@ color:var(--text);
 
 }
 
-.site-header{
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 
-    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    top:0;
-    left:0;
-    right:0;
+    padding: 20px 60px;
 
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:30px 60px;
-
-    z-index:100;
-
+    z-index: 9999;
 }
 
 .photo-grid img {
@@ -1181,7 +1176,7 @@ text-decoration:none;
 
 }
 .logo img{
-    height:160px;
+    height:90px;
     width:auto;
 }
 /* Thank You Page */
