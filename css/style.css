@@ -74,34 +74,34 @@ transform:scale(1.03);
 }
 
 
-
 .hero {
+
     position:relative;
+
     min-height:75vh;
+
+    background:
+    linear-gradient(
+    rgba(60,50,40,.35),
+    rgba(60,50,40,.35)
+    ),
+    url("../images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    color:var(--off-white);
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     text-align:center;
-}
 
 }
-
-background:
-
-linear-gradient(
-rgba(60,50,40,.35),
-rgba(60,50,40,.35)
-),
-
-url("../images/hero.jpg");
-
-background-size:cover;
-
-background-position:center;
-
-color:var(--off-white);
-
-{
 
 
 .logo {
