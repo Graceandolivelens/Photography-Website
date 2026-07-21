@@ -40,19 +40,24 @@ color:var(--text);
 
 }
 
-.site-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+.site-header{
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position:absolute;
 
-    padding: 20px 60px;
+    top:0;
+    left:0;
+    right:0;
 
-    z-index: 9999;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:30px 60px;
+
+    z-index:100;
+
 }
 
 .photo-grid img {
@@ -190,11 +195,11 @@ line-height:1.7;
 
     font-family:"Moontime";
 
-    font-size:10rem;
+    font-size:15rem;
 
     font-weight:normal;
 
-    line-height:.8;
+    line-height:.10;
 
     color:var(--off-white);
 
