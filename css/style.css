@@ -33,7 +33,7 @@ background:var(--cream);
 color:var(--text);
 
 .hero-title {
-    font-family: "Allura";
+    font-family: "Moontime", cursive;
     font-size: 6rem;
     font-weight: normal;
     line-height: 1;
@@ -41,7 +41,7 @@ color:var(--text);
 }
 
 .hero-subtitle {
-    font-family: "Lora";
+    font-family: "Lora", serif;
     font-size: 2.2rem;
     font-weight: normal;
     line-height: 1.4;
