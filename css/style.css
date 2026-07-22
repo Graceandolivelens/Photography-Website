@@ -1279,3 +1279,28 @@ grid-template-columns:1fr;
     grid-template-columns:1fr;
     gap:25px;
 }
+
+/* TESTIMONIAL OVERRIDE TEST */
+
+.testimonials {
+    text-align:center !important;
+}
+
+.testimonials h2 {
+    text-align:center !important;
+}
+
+.testimonial-grid {
+    max-width:1000px;
+    margin:50px auto 0;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+}
+
+.testimonial {
+    min-height:420px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
