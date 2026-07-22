@@ -647,39 +647,32 @@ border-radius:15px;
 @media (max-width: 900px) {
 
 
-nav {
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-flex-direction:column;
+    flex-direction:row;
 
-gap:10px;
-
-padding:10px;
-
+    padding:15px 20px;
 }
 
-
-nav ul {
-
-gap:10px;
-
-flex-wrap:wrap;
-
-justify-content:center;
-
+.logo{
+    text-align:left;
 }
 
-
-.logo {
-
-text-align:center;
-
+.logo img{
+    width:180px;
 }
 
+nav ul{
+    display:flex;
+    gap:18px;
 
-.hero-content p {
+    justify-content:flex-end;
+    align-items:center;
 
-font-size:18px;
-
+    flex-wrap:wrap;
 }
 
 
@@ -754,10 +747,12 @@ grid-template-columns:1fr;
 
 @media (max-width:600px) {
 
-.site-header {
+..site-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
     padding:10px 15px;
-    flex-direction:column;
-    gap:8px;
 }
 
 .logo {
@@ -765,18 +760,13 @@ grid-template-columns:1fr;
 }
 
 nav ul {
-    gap:6px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
 }
-
-nav ul {
-
-flex-direction:column;
-
-align-items:center;
-
-}
-
-
 
 .hero {
     height:auto;
@@ -791,7 +781,7 @@ align-items:center;
 }
 
 .hero-title {
-    font-size:3.2rem;
+    font-size:4rem;
     line-height:.9;
     white-space:nowrap;
 }
@@ -832,6 +822,11 @@ align-items:center;
     overflow:visible;
 }
 
+.testimonial-grid {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+}
 .featured-stories {
     width:100%;
     max-width:100%;
@@ -867,10 +862,15 @@ align-items:center;
 grid-template-columns:1fr;
 }
 
-.testimonial-grid,
-.featured-stories {
-    overflow:visible;
-    height:auto;
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+    margin-top:40px;
+}
+
+.testimonial{
+    width:100%;
 }
 /* INVESTMENT PAGE */
 
