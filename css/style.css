@@ -850,13 +850,15 @@ grid-template-columns:1fr;
 
 .testimonial-grid{
     display:grid;
-    grid-template-columns:1fr;
+    grid-template-columns:1fr !important;
     gap:30px;
     margin-top:40px;
+    width:100%;
 }
 
 .testimonial{
     width:100%;
+    box-sizing:border-box;
 }
 /* INVESTMENT PAGE */
 
