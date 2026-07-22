@@ -1056,3 +1056,219 @@ text-decoration:none;
     border-radius: 6px;
 
 }
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 900px) {
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    flex-direction:row;
+
+    padding:15px 20px;
+}
+
+.logo{
+    text-align:left;
+}
+
+.logo img{
+    width:160px;
+}
+
+nav ul{
+    gap:10px;
+}
+
+
+
+.about-hero {
+
+flex-direction:column;
+
+padding:60px 8%;
+
+}
+
+
+
+.about-text {
+
+text-align:center;
+
+}
+
+
+
+.experience-grid {
+
+flex-direction:column;
+
+}
+
+
+
+.portfolio-cards {
+
+flex-direction:column;
+
+}
+
+
+
+.portfolio-card img {
+
+height:350px;
+
+}
+
+
+
+.photo-grid {
+
+grid-template-columns:repeat(2,1fr);
+
+padding:30px 5%;
+
+}
+
+
+
+.photo-grid img {
+
+height:300px;
+
+}
+
+
+.services,
+.process-grid {
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media (max-width:600px) {
+
+.site-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+    padding:10px 15px;
+}
+
+.logo {
+    font-size:14px;
+}
+
+nav ul{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:8px;
+}
+
+.hero {
+    height:auto;
+    min-height:100vh;
+    padding:120px 20px 60px;
+}
+
+.hero-content {
+    max-width:100%;
+    padding:10px;
+    margin-top:0;
+}
+
+.hero-title {
+    font-size:3.7rem;
+    line-height:.9;
+    white-space:nowrap;
+}
+
+.hero-subtitle {
+    font-size:1.4rem;
+    line-height:1.4;
+    margin-bottom:25px;
+}
+
+.hero-text {
+    font-size:.8rem;
+    line-height:1.6;
+}
+
+.photo-grid {
+    grid-template-columns:1fr;
+}
+
+.photo-grid img {
+    height:auto;
+}
+
+.gallery-header h1 {
+    font-size:40px;
+}
+
+.gallery-header,
+.investment-header,
+.contact-header {
+    padding-top:120px;
+}
+
+
+.featured-stories {
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+}
+
+.featured-stories * {
+    max-width:100%;
+}
+
+.cards {
+    flex-direction:column;
+    width:100%;
+    gap:30px;
+}
+
+.card {
+    width:100%;
+}
+
+.card img {
+    height:300px;
+}
+
+
+.included-grid {
+
+grid-template-columns:1fr;
+}
+
+.testimonial-grid{
+    display:grid;
+    grid-template-columns:1fr !important;
+    gap:30px;
+    margin-top:40px;
+    width:100%;
+}
+
+.testimonial{
+    width:100%;
+    box-sizing:border-box;
+}
+
+.services,
+.process-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:25px;
+}
