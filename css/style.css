@@ -39,6 +39,16 @@ color:var(--text);
 
 }
 
+.follow-title {
+
+    font-family:"Moontime", cursive;
+
+    font-size:60px;
+
+    margin:25px 0;
+
+}
+
 .site-header{
 
     position:absolute;
@@ -1208,6 +1218,11 @@ padding:280px 20px 40px;
 
 font-size:60px;
 
+}
+
+.follow-title {
+
+font-size:45px;
 
 }
 
