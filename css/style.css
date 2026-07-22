@@ -1010,10 +1010,6 @@ text-decoration:none;
     width:auto;
 }
 
-.testimonials h2 {
-    text-align:center !important;
-    width:100%;
-}
 /* Thank You Page */
 
 .thank-you {
@@ -1066,6 +1062,11 @@ text-decoration:none;
 
     border-radius: 6px;
 
+}
+
+.testimonials h2 {
+    text-align:center !important;
+    width:100%;
 }
 
 /* MOBILE RESPONSIVE DESIGN */
