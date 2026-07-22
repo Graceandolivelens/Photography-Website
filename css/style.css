@@ -237,7 +237,8 @@ line-height:1.7;
 }
 
 
-.hero-button{
+.hero-button,
+.button{
 
     display:inline-block;
 
@@ -257,7 +258,8 @@ line-height:1.7;
 
 }
 
-.hero-button:hover{
+.hero-button:hover,
+.button:hover{
 
     background:#5f694f;
 
@@ -646,7 +648,7 @@ border-radius:15px;
 
 text-align:center;
 
-padding:90px 10% 50px;
+padding:260px 10% 50px;
 
 }
 
@@ -718,7 +720,10 @@ margin-top:25px;
 
 }
 
+.process h2 {
 
+font-family:"moontime", cursive;
+}
 
 .process {
 
@@ -1174,6 +1179,9 @@ height:300px;
 grid-template-columns:1fr;
 
 }
+.investment-header {
+
+    padding:280px 20px 50px;
 
 }
 
