@@ -28,9 +28,6 @@ box-sizing:border-box;
 
 }
 
-html, body {
-    overflow-x:hidden;
-}
 
 body {
 
@@ -662,7 +659,7 @@ nav{
 }
 
 .logo img{
-    width:170px;
+    width:160px;
 }
 
 nav ul{
@@ -756,7 +753,7 @@ grid-template-columns:1fr;
 }
 
 .logo {
-    font-size:16px;
+    font-size:14px;
 }
 
 nav ul {
@@ -781,7 +778,7 @@ nav ul {
 }
 
 .hero-title {
-    font-size:3.8rem;
+    font-size:3.7rem;
     line-height:.9;
     white-space:nowrap;
 }
