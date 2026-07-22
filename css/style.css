@@ -730,7 +730,7 @@ font-size:90px;
 
 .process {
 
-padding:90px 8%;
+padding:80px 8%;
 
 text-align:center;
 
@@ -828,7 +828,7 @@ margin-top:15px;
 
 text-align:center;
 
-padding:90px 10% 40px;
+padding:260px 10% 40px;
 
 }
 
@@ -917,7 +917,6 @@ cursor:pointer;
 margin-top:20px;
 }
 
-}
 /* TESTIMONIALS */
 
 .testimonials {
@@ -1188,7 +1187,13 @@ grid-template-columns:1fr;
 }
 .investment-header {
 
-    padding:280px 20px 50px;
+padding:280px 20px 50px;
+
+}
+
+.contact-header {
+
+padding:280px 20px 40px;
 
 }
 
