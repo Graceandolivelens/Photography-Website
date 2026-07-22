@@ -662,7 +662,7 @@ nav{
 }
 
 .logo img{
-    width:180px;
+    width:170px;
 }
 
 nav ul{
@@ -747,7 +747,7 @@ grid-template-columns:1fr;
 
 @media (max-width:600px) {
 
-..site-header {
+.site-header {
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -781,7 +781,7 @@ nav ul {
 }
 
 .hero-title {
-    font-size:4rem;
+    font-size:3.8rem;
     line-height:.9;
     white-space:nowrap;
 }
@@ -793,7 +793,7 @@ nav ul {
 }
 
 .hero-text {
-    font-size:.9rem;
+    font-size:.8rem;
     line-height:1.6;
 }
 
@@ -815,18 +815,7 @@ nav ul {
     padding-top:120px;
 }
 
-.featured-stories,
-.testimonial-grid,
-.process-grid {
-    height:auto;
-    overflow:visible;
-}
 
-.testimonial-grid {
-    display:grid;
-    grid-template-columns:1fr;
-    gap:30px;
-}
 .featured-stories {
     width:100%;
     max-width:100%;
