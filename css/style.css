@@ -722,7 +722,10 @@ margin-top:25px;
 
 .process h2 {
 
-font-family:"moontime", cursive;
+font-family:"Moontime", cursive;
+
+font-size:90px;
+
 }
 
 .process {
@@ -1164,7 +1167,11 @@ padding:30px 5%;
 
 }
 
+.process h2 {
 
+    font-size:60px;
+
+}
 
 .photo-grid img {
 
