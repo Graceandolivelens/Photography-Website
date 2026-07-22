@@ -481,7 +481,7 @@ margin-top:15px;
 
 text-align:center;
 
-padding:80px 10%;
+padding:260px 10% 80px;
 
 }
 
@@ -572,7 +572,7 @@ line-height:1.6;
 
 text-align:center;
 
-padding:90px 10% 50px;
+padding:260px 10% 50px;
 
 }
 
@@ -1125,7 +1125,11 @@ flex-direction:column;
 
 }
 
+.portfolio-intro {
 
+    padding:280px 20px 60px;
+
+}
 
 .portfolio-cards {
 
@@ -1141,7 +1145,11 @@ height:350px;
 
 }
 
+.gallery-header {
 
+padding:280px 20px 50px;
+
+}
 
 .photo-grid {
 
