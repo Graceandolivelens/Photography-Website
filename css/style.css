@@ -927,7 +927,9 @@ margin-top:20px;
 
     display:grid;
 
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(3, 300px);
+
+    justify-content:center;
 
     gap:30px;
 
@@ -1262,7 +1264,7 @@ grid-template-columns:1fr;
 
 .testimonial-grid{
     display:grid;
-    grid-template-columns:1fr !important;
+    grid-template-columns:1fr;
     gap:30px;
     margin-top:40px;
     width:100%;
@@ -1278,8 +1280,4 @@ grid-template-columns:1fr;
     display:grid;
     grid-template-columns:1fr;
     gap:25px;
-}
-
-.testimonials {
-    background:red !important;
 }
